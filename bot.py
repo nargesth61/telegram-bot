@@ -33,7 +33,7 @@ def main():
     dp.add_handler(CommandHandler('startt',start))
     #برای فعال سازی ربات راهی برای ارتباط با وب اپلیکیشن یا وب سایت ما
     updater.start_webhook(listen='0.0.0.0', port=int(PORT), url_path=TOKEN)
-    updater.bot.set_webhook('https://0176-5-117-148-185.in.ngrok.io/' + TOKEN)
+    updater.bot.set_webhook('' + TOKEN)
     
     #دستور زیر ینی تا وقتی ctrl + c را نزنیم ربات فعال باشد
     
